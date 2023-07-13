@@ -24,16 +24,16 @@ body {
 .parent {
 	background-color: #eee;
 }
+.grid-3 {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 2em;
+}
 .container {
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 15px;
 	padding-right: 15px;
-}
-.grid-3 {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	grid-gap: 2em;
 }
 /* small or single screen */
 @media (min-width: 768px) {
