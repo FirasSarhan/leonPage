@@ -204,11 +204,6 @@ body {
 	padding: var(--section-padding);
 	background-color: var(--section-backgroundColor);
 }
-/* .features .container {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	grid-gap: 2em;
-} */
 .features .feat {
 	padding: 1.5em;
 	text-align: center;
@@ -234,9 +229,6 @@ body {
 }
 
 .services .servicesContent {
-	/* display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	grid-gap: 2em; */
 	margin-top: 6.25em;
 }
 .services .servicesContent .srv {
@@ -295,9 +287,6 @@ body {
 	background-color: var(--section-backgroundColor);
 }
 .portfolio .portfolioContent {
-	/* display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	grid-gap: 2em; */
 	margin-top: 6.25em;
 }
 .portfolio .portfolioContent .card {
